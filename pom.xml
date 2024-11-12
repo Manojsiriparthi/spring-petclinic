@@ -15,10 +15,11 @@
     </properties>
 
     <dependencies>
-        <!-- Your project dependencies go here -->
+        <!-- Specify the version of the Spring Boot starter -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter</artifactId>
+            <version>2.7.6</version> <!-- Specify the correct version -->
         </dependency>
         <!-- Add other dependencies as needed -->
     </dependencies>
