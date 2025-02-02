@@ -11,7 +11,7 @@
 
     <!-- Set the Java version here -->
     <properties>
-        <java.version>11</java.version> <!-- Set the Java version to 11 -->
+        <java.version>17</java.version> <!-- Set the Java version to 17 -->
     </properties>
 
     <dependencies>
@@ -32,8 +32,8 @@
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.8.1</version> <!-- Use the latest compiler plugin version -->
                 <configuration>
-                    <source>11</source> <!-- Specify Java 11 for source compatibility -->
-                    <target>11</target> <!-- Specify Java 11 for target compatibility -->
+                    <source>17</source> <!-- Specify Java 17 for source compatibility -->
+                    <target>17</target> <!-- Specify Java 17 for target compatibility -->
                 </configuration>
             </plugin>
 
